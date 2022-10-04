@@ -192,7 +192,7 @@ windowBg: primaryDark; // white: fallback for background
  dialogsUnreadBgOver: primaryColor; // chat list unread badge background for not muted chat with mouse over 
  dialogsUnreadBgMutedOver: #555e67; // chat list unread badge background for muted chat with mouse over 
  dialogsUnreadFgOver: dialogsUnreadFg; // chat list unread badge text with mouse over 
- dialogsBgActive: primaryColor; // chat list background for current (active) chat 
+ dialogsBgActive: quaternaryDark; // chat list background for current (active) chat 
  dialogsNameFgActive: windowFgActive; // chat list name text for current (active) chat 
  dialogsChatIconFgActive: dialogsNameFgActive; // chat list group or channel icon for current (active) chat 
  dialogsDateFgActive: windowFgActive; // chat list date text for current (active) chat 
@@ -212,7 +212,7 @@ windowBg: primaryDark; // white: fallback for background
  dialogsForwardFg: dialogsNameFgActive; // forwarding panel text (when forwarding messages in the smallest window size) 
  searchedBarBg: secondaryDark; // search results bar background (in chats list, contacts box..) 
  searchedBarFg: #a8a8a8; // search results bar text (in chats list, contacts box..) 
- topBarBg: quaternaryDark; // top bar background (in chat view, media overview..) 
+ topBarBg: windowBg; // top bar background (in chat view, media overview..) 
  emojiPanBg: windowBg; // emoji panel background 
  emojiPanCategories: primaryDark; // emoji panel categories background 
  emojiPanHeaderFg: #90949a; // emoji panel section header text 
