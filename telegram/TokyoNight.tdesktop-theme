@@ -226,7 +226,7 @@ windowBg: primaryDark; // white: fallback for background
  historyTextOutFgSelected: primaryText; // outbox message selected text or text in a selected message 
  historyLinkInFg: primaryColor; // inbox message link 
  historyLinkInFgSelected: primaryColorDark; // inbox message link in a selected text or message 
- historyLinkOutFg: primaryColorDark; // outbox message link 
+ historyLinkOutFg: primaryColor; // outbox message link 
  historyLinkOutFgSelected: primaryColor; // outbox message link in a selected text or message 
  historyFileNameInFg: historyTextInFg; // inbox media filename text 
  historyFileNameInFgSelected: primaryText; // inbox media filename text in a selected message 
